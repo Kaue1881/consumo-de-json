@@ -51,3 +51,9 @@ li{
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.416);
     width: 300px;
 }
+
+@media (max-width: 80vh){
+    html, body{
+        overflow-y: visible;
+    }
+}
